@@ -40,6 +40,13 @@ ul {
   padding-left: 0;
 }
 
+a,
+.link {
+  color: var(--accent-color);
+  position: relative;
+  text-decoration: none;
+}
+
 button, 
 .btn {
   background-color: #fff;

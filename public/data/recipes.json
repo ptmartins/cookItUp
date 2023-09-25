@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Gratined cod",
+        "title": "Bacalhau com natas",
         "type": "Fish",
         "ingredients": [
             {
@@ -34,15 +34,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 2,
-        "title": "Tuna spaghetti",
+        "title": "Esparguete de atum",
         "type": "Fish",
         "ingredients": [
             {
@@ -75,15 +71,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 3,
-        "title": "Tuna chickpea salad",
+        "title": "Salada de grao com atum",
         "type": "Fish",
         "ingredients": [
             {
@@ -116,15 +108,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 4,
-        "title": "Turkey fillets with cream sauce",
+        "title": "Bifinhos de peru com natas",
         "type": "Fish",
         "ingredients": [
             {
@@ -157,15 +145,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 5,
-        "title": "Chakshuka",
+        "title": "Shakshuka",
         "type": "Fish",
         "ingredients": [
             {
@@ -198,15 +182,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 6,
-        "title": "Jacket Potatoes with Chilli",
+        "title": "Jacket com Chili",
         "type": "Fish",
         "ingredients": [
             {
@@ -239,15 +219,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 7,
-        "title": "Creamy salmon pasta",
+        "title": "Esparguete cremosa de salmao",
         "type": "Fish",
         "ingredients": [
             {
@@ -280,15 +256,11 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 8,
-        "title": "Tuna pasta bake",
+        "title": "Massa de atum gratinada",
         "type": "Fish",
         "ingredients": [
             {
@@ -321,51 +293,33 @@
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     },
     {
         "id": 9,
-        "title": "Spaghetti Bolognese",
+        "title": "Esparguete a bolonhesa",
         "type": "Fish",
         "ingredients": [
             {
-                "name": "Bacalhau",
+                "name": "Carne picada",
                 "quantity": 1,
                 "unit": "Kg."
             },
             {
-                "name": "Cebolas",
+                "name": "Esparguete",
+                "quantity": 320,
+                "unit": "gr."
+            },
+            {
+                "name": "Tomate em lata",
                 "quantity": 2,
                 "unit": "un."
-            },
-            {
-                "name": "Batatas",
-                "quantity": 1,
-                "unit": "Kg"
-            },
-            {
-                "name": "Alho",
-                "quantity": 3,
-                "unit": "un."
-            },
-            {
-                "name": "Natas",
-                "quantity": 500,
-                "unit": "ml."
             }
         ],
         "instructions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "time": {
             "total": 1,
             "unit": "hr."
-        },
-        "media": {
-            "thumbnail": "",
-            "large": ""
         }
     }        
 ]

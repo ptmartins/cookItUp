@@ -45,13 +45,13 @@ function App() {
 
       recipes.forEach(recipe => {
         recipe.ingredients.forEach(ingredient => {
-          if(!(ingredient.name in res)) {
+          if(!(ingredient.name.toLowerCase() in res)) {
             res[ingredient.name.toLowerCase()] = {
               quantity: ingredient.quantity,
               unit: ingredient.unit
             }
           } else {
-              res[ingredient.name].quantity += ingredient.quantity
+              res[ingredient.name.toLowerCase()].quantity += ingredient.quantity
           }
         })
       })

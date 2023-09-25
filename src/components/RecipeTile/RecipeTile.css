@@ -10,8 +10,10 @@
 }
 
 .recipe__thumb {
-    border-radius: var(--default-radius);
+    border-top-left-radius: var(--default-radius);
+    border-top-right-radius: var(--default-radius);
     height: 65%;
+    max-height: 165px;
     overflow: hidden;
 }
 
