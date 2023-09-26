@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
 
 :root {
   --primary-color: #f9f5f2;
@@ -74,6 +74,7 @@ button:hover,
 .header {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 3rem;
 }

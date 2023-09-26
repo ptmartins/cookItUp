@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import RecipesGrid from './components/RecipesGrid/RecipesGrid';
+import Modal from './components/Modal/Modal';
 import './App.css';
 
 /**
@@ -21,6 +22,7 @@ function App() {
 
   const [recipes, setRecipes] = useState(null);
   const [ingredients, setIngredients] = useState(null);
+  const [showModal, setShowModal] = useState(false);
 
   const setData = () => {
     fetch('./data/recipes.json').then(res => res.json()).then(data => {
@@ -74,7 +76,7 @@ function App() {
           <div className="logo">Cook<span>IT</span><span>Up</span></div>
           <div className="actions">
             <button className="btn" onClick={() => refresh()}>Refresh</button>
-            <button className="btn" onClick={() => refresh()}>Print Ingredients</button>
+            <button className="btn" onClick={() => setShowModal(true)}>Show Ingredients</button>
           </div>
         </header>
         <main className="main">
@@ -83,7 +85,8 @@ function App() {
         <footer className="footer">
           <div className="attribution">Developed with &hearts; by <a href="https://ptmartins.github.io">Pedro Martins</a></div>
         </footer>
-      </div>  
+      </div>
+      <Modal open={showModal} handleVis={setShowModal} data={ingredients} />  
     </div>
   );
 }
