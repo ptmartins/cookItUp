@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap');
+
+:root {
+    --primary-color: #f9f5f2;
+    --accent-color: #ff724c;
+    --secondary-color: #2a2c41;
+    --terciary-color: #fcc050;
+    --neutral-color: #f4f3f8;
+  
+    --default-radius: 6px;
+    --default-border: 1px solid #b9b9b9;
+    --default-transition: all .2s ease;
+    --radius-lg: 12px;
+    --font-color: #060606;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+body,
+#__next {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+a,
+.link {
+  color: var(--accent-color);
+  position: relative;
+  text-decoration: none;
+}
+
+button, 
+.btn {
+    background-color: #fff;
+    border: 2px solid var(--accent-color);
+    border-radius: var(--default-radius);
+    color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+    min-width: 120px;
+    padding: .75rem 1.5rem;
+    text-transform: uppercase;
+    transition: var(--default-transition);
+}
+
+button:hover, 
+.btn:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.btn--cta {
+    margin-inline-start: .75rem;
+}

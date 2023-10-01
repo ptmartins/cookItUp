@@ -1,0 +1,10 @@
+.nav {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.nav__item {
+    margin: 0 .75rem;
+    padding: .375rem 0;
+}   
