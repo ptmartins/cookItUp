@@ -29,7 +29,7 @@ export default function Home({recipes}) {
     shuffleRecipes(recipes);
   }
 
-  useEffect(() => shuffleRecipes(recipes), [recipes])
+  useEffect(() => shuffleRecipes(recipes), [])
 
   return (
     <>
