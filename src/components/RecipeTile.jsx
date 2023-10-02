@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import ContentfulImage from '@/components/Contentfulimage';
+import ContentfulImage from '@/components/ContentfulImage';
 import styles from '@/styles/RecipeTile.module.css';
 
 const RecipeTile = ({data}) => {
